@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Brick : MonoBehaviour
 {
-    public PowerUp.Power power = PowerUp.Power.NOTHING;
+    public PowerUp.Power power = PowerUp.Power.BigPaddle;
     public int hitsToKill;
     public int points;
     private int numberOfHits;
