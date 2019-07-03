@@ -5,16 +5,19 @@ using UnityEngine;
 public class Brick : MonoBehaviour
 {
     public PowerUp.Power power = PowerUp.Power.NOTHING;
+    public int hitsToKill;
+    public int points;
+    private int numberOfHits;
 
-    // Start is called before the first frame update
+    // Use this for initialization
     void Start()
     {
-        
+        numberOfHits = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
