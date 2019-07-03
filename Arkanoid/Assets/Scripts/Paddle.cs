@@ -23,15 +23,10 @@ public class Paddle : MonoBehaviour
         {
             newVel.x = speed;
         }
-        if (newVel.x != 0)
-        {
-            GetComponent<Rigidbody>().velocity = new Vector3(newVel.x, transform.position.y, 0);
-        }
-
-        if (Input.GetKeyUp("a") || Input.GetKeyUp("d")){
-            newVel.x = 0;
-        }
-        Debug.Log(newVel.x);
+        
+        GetComponent<Rigidbody>().velocity = new Vector3(newVel.x, transform.position.y, 0);
+        
+        
 
     }
 }
