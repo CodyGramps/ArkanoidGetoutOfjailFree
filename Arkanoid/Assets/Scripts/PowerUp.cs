@@ -6,13 +6,16 @@ public class PowerUp : MonoBehaviour
 {
     public enum Power
     {
+        Nothing,
         BigPaddle
     }
+    public Power power;
+    public AudioClip powerupaudio;
 
     void OnCollisionEnter(Collision col)
     {
         Paddle paddle = GameObject.Find("Paddle").GetComponent<Paddle>();
-        AudioSource.PlayClipAtPoint(powerupaudio[0], transform.position);
+        AudioSource.PlayClipAtPoint(powerupaudio, transform.position);
 
         if (col.gameObject.name == "Paddle")
         {

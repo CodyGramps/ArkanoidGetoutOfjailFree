@@ -8,6 +8,7 @@ public class Brick : MonoBehaviour
     public int hitsToKill;
     public int points;
     private int numberOfHits;
+    public GameObject powerUpPrefab;
 
     // Use this for initialization
     void Start()
@@ -19,5 +20,18 @@ public class Brick : MonoBehaviour
     void Update()
     {
 
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Ball")
+        {
+            if (power != PowerUp.Power.Nothing)
+            {
+                GameObject powerup = Instantiate(powerUpPrefab);
+                powerup.GetComponent<PowerUp>().power = power;
+            }
+            Destroy(gameObject);
+        }
     }
 }

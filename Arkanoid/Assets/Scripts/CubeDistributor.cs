@@ -8,7 +8,11 @@ public class CubeDistributor : MonoBehaviour
     {
         for (int i = 0; i < transform.childCount; ++i)
         {
-            transform.GetChild(i).gameObject.AddComponent<Brick>();
+            Brick b = transform.GetChild(i).gameObject.AddComponent<Brick>();
+            if (Random.Range(0, 100) >= 90)
+            {
+                b.power = PowerUp.Power.BigPaddle;
+            }
         }
     }
 }
