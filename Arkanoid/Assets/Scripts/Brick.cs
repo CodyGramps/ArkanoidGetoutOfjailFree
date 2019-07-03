@@ -28,8 +28,11 @@ public class Brick : MonoBehaviour
         {
             if (power != PowerUp.Power.Nothing)
             {
-                GameObject powerup = Instantiate(powerUpPrefab);
-                powerup.GetComponent<PowerUp>().power = power;
+                if (powerUpPrefab)
+                {
+                    GameObject powerup = Instantiate(powerUpPrefab);
+                    powerup.GetComponent<PowerUp>().power = power;
+                }
             }
             Destroy(gameObject);
         }
