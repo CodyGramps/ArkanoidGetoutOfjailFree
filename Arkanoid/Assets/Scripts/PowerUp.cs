@@ -11,8 +11,6 @@ public class PowerUp : MonoBehaviour
     }
     public Power power;
     public AudioClip powerupaudio;
-
-    public AudioClip powerupaudio;
     void OnCollisionEnter(Collision col)
     {
         Paddle paddle = GameObject.Find("Paddle").GetComponent<Paddle>();
