@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/DPSplash.unity
+    guid: 3c63758735483fe44be2e7dc0c710591
+  - enabled: 1
     path: Assets/Scenes/Gameplay.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/HighScores.unity
+    guid: 7d50cb77260bcc54aa98ec195da16781
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: 20ad882cb0ed35449b50b3999bb71cca
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: e5ce563c4a8dfcb45b7cb485bd191360
+  - enabled: 1
+    path: Assets/Scenes/Studio Splash Screen.unity
+    guid: 639d6de2f6c32b141b3bdeb74dc4d31e
   m_configObjects: {}

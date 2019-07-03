@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ScoreDisplay : MonoBehaviour
 {
+    public static int score = 150;
+
     // Start is called before the first frame update
     void Start()
     {
