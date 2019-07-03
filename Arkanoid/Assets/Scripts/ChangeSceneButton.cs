@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class ChangeSceneButton : MonoBehaviour
 {
-    
 
+    public string newScene;
     // Update is called once per 
     public void onClick()
     {
-        SceneManager.LoadScene("Gameplay");
+        SceneManager.LoadScene(newScene);
     } 
 }
