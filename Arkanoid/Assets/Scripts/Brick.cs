@@ -36,6 +36,7 @@ public class Brick : MonoBehaviour
         {
             numberOfHits++;
             hitTimer = hitanim.keys[hitanim.keys.Length - 1].time;
+            ScoreDisplay.score += 10;
             if (numberOfHits >= hitsToKill)
             {
                 if (power != PowerUp.Power.Nothing)
@@ -47,6 +48,7 @@ public class Brick : MonoBehaviour
                         powerup.transform.position = transform.position;
                     }
                 }
+                ScoreDisplay.score += 100;
                 Destroy(gameObject);
             }
         }

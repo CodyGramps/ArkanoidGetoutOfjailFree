@@ -255,6 +255,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filename: highscores.json
   maxScores: 5
+  data:
+    scores: []
 --- !u!114 &396213269
 MonoBehaviour:
   m_ObjectHideFlags: 0
