@@ -11,11 +11,21 @@ public class Ball : MonoBehaviour
     public KeyCode launch = KeyCode.Space;
     public float speedIncreaseFactor = 1.05f;
     bool bounced = false;
+    float startX;
+    float startY;
 
     void Start()
     {
         velocity = startVelocity;
         rb = GetComponent<Rigidbody>();
+        float startX = transform.position.x;
+        float startY = transform.position.y;
+    }
+
+    void respawn()
+    {
+        velocity = startVelocity;
+        transform.position = new Vector3(startX, startY, -1);
     }
 
     void Update()
@@ -50,5 +60,15 @@ public class Ball : MonoBehaviour
             velocity.y *= -1;
         }
         velocity *= speedIncreaseFactor;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "botomBorder")
+        {
+            respawn();
+            launched = false;
+        }
+            
     }
 }
