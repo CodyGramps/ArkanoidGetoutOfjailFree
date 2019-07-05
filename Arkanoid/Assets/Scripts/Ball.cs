@@ -13,22 +13,11 @@ public class Ball : MonoBehaviour
     public float maxSpeed = 10f;
     public float DebugSpeed;
     bool bounced = false;
-    float startX;
-    float startY;
 
     void Start()
     {
         velocity = startVelocity;
         rb = GetComponent<Rigidbody>();
-        startX = transform.position.x;
-        startY = transform.position.y;
-    }
-
-    void respawn()
-    {
-        transform.position = new Vector3(startX, startY, -1);
-        launched = false;
-        velocity = startVelocity;
     }
 
     void Update()
@@ -71,14 +60,6 @@ public class Ball : MonoBehaviour
         if (velocity.magnitude > maxSpeed)
         {
             velocity = velocity.normalized * maxSpeed;
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.tag == "botomBorder")
-        {
-            respawn();
         }
     }
 }
