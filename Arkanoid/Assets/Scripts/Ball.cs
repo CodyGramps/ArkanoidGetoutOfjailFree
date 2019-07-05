@@ -11,6 +11,7 @@ public class Ball : MonoBehaviour
     public KeyCode launch = KeyCode.Space;
     public float speedIncreaseFactor = 1.05f;
     public float maxSpeed = 10f;
+    public Vector3 DebugVel;
     public float DebugSpeed;
     bool bounced = false;
     float startX;
@@ -44,10 +45,11 @@ public class Ball : MonoBehaviour
                 launched = true;
         }
         bounced = false;
+        DebugVel = velocity;
         DebugSpeed = velocity.magnitude;
-        if (Mathf.Abs(velocity.x) <= 0.01f || Mathf.Abs(velocity.y) <= 0.01f)
+        while (Mathf.Abs(velocity.x) <= 1f || Mathf.Abs(velocity.y) <= 3f)
         {
-            velocity = Quaternion.Euler(0, 0, Random.Range(-45,45)) * velocity;
+            velocity = Quaternion.Euler(0, 0, Random.Range(-45, 45)) * velocity;
         }
     }
 
@@ -71,6 +73,10 @@ public class Ball : MonoBehaviour
         if (velocity.magnitude > maxSpeed)
         {
             velocity = velocity.normalized * maxSpeed;
+        }
+        while (Mathf.Abs(velocity.x) <= 1f || Mathf.Abs(velocity.y) <= 3f)
+        {
+            velocity = Quaternion.Euler(0, 0, Random.Range(-45, 45)) * velocity;
         }
     }
 

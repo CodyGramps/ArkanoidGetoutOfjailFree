@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 892864889}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: botomBorder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12773,7 +12773,7 @@ PrefabInstance:
     - target: {fileID: 3897292966182298259, guid: 846746eaeee50d04cbb09ee761bdcdf2,
         type: 3}
       propertyPath: maxSpeed
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3897292966182298259, guid: 846746eaeee50d04cbb09ee761bdcdf2,
         type: 3}

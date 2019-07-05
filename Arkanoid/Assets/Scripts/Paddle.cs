@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Paddle : MonoBehaviour
 {
-
+    public float maxSize = 10;
     public float speed;
     void Start()
     {
@@ -25,8 +25,9 @@ public class Paddle : MonoBehaviour
         }
         
         GetComponent<Rigidbody>().velocity = new Vector3(newVel.x, transform.position.y, 0);
-        
-        
-
+        if (transform.localScale.x > maxSize)
+        {
+            transform.localScale = new Vector3(maxSize, transform.localScale.y, transform.localScale.z);
+        }
     }
 }
