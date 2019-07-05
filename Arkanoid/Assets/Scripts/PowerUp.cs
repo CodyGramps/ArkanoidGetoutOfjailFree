@@ -11,22 +11,29 @@ public class PowerUp : MonoBehaviour
     }
     public Power power;
     public AudioClip powerupaudio;
+    public float speed = 1;
 
-    void OnCollisionEnter(Collision col)
+    void OnTriggerEnter(Collider col)
     {
-        Paddle paddle = GameObject.Find("Paddle").GetComponent<Paddle>();
+        Paddle paddle = col.GetComponent<Paddle>();
         AudioSource.PlayClipAtPoint(powerupaudio, transform.position);
 
         if (col.gameObject.name == "Paddle")
         {
             // check what powerup am I
-            switch (gameObject.name)
+            switch (power)
             {
-                case "Big_Paddle":
-                    GameObject.Find("Paddle").transform.localScale += new Vector3(1F, 0, 0);
+                case Power.BigPaddle:
+                    col.transform.localScale += new Vector3(1F, 0, 0);
+                    paddle.speed *= 0.9f;
                     break;
             }
             Destroy(gameObject);
         }
+    }
+
+    private void Update()
+    {
+        transform.position += Vector3.down * speed;
     }
 }
