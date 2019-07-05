@@ -15,7 +15,6 @@ public class Ball : MonoBehaviour
     public Vector3 DebugVel;
     public float DebugSpeed;
     bool bounced = false;
-    public int lives;
     float startX;
     float startY;
     public AudioClip paddlesound;
@@ -26,7 +25,6 @@ public class Ball : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         startX = transform.position.x;
         startY = transform.position.y;
-        lives = 3;
     }
 
     void respawn()
@@ -34,7 +32,7 @@ public class Ball : MonoBehaviour
         transform.position = new Vector3(startX, startY, -1);
         launched = false;
         velocity = startVelocity;
-        lives -= 1;
+        LivesDisplay.lives -= 1;
     }
 
     void Update()
@@ -56,7 +54,7 @@ public class Ball : MonoBehaviour
         {
             velocity = Quaternion.Euler(0, 0, Random.Range(-45, 45)) * velocity;
         }
-        if (lives == 0)
+        if (LivesDisplay.lives == 0)
         {
             SceneManager.LoadScene("HighScores");
         }
