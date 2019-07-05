@@ -31,12 +31,10 @@ public class PowerUp : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    
     private void Update()
     {
         transform.position += Vector3.down * speed;
     }
-=======
-    
->>>>>>> Stashed changes
+
 }
