@@ -213,9 +213,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 1
-  hitsToKill: 0
-  points: 0
-  powerUpPrefab: {fileID: 0}
+  hitsToKill: 1
+  points: 80
+  powerUpPrefab: {fileID: 9129626198267486154, guid: 96ffaf272ae5bb94c848fa5f093fb621,
+    type: 3}
 --- !u!1 &3365623097258672589
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,8 +322,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 1
-  hitsToKill: 0
-  points: 0
+  hitsToKill: 3
+  points: 150
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623097368609365
 GameObject:
@@ -537,8 +538,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 1
-  hitsToKill: 0
-  points: 0
+  hitsToKill: 3
+  points: 150
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623097412040717
 GameObject:
@@ -645,8 +646,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 1
-  hitsToKill: 0
-  points: 0
+  hitsToKill: 3
+  points: 150
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623097571421642
 GameObject:
@@ -860,9 +861,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 2
+  points: 100
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623097774073840
 GameObject:
@@ -968,9 +969,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623097776689022
 GameObject:
@@ -1077,9 +1078,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 1
-  hitsToKill: 0
-  points: 0
-  powerUpPrefab: {fileID: 0}
+  hitsToKill: 1
+  points: 80
+  powerUpPrefab: {fileID: 9129626198267486154, guid: 96ffaf272ae5bb94c848fa5f093fb621,
+    type: 3}
 --- !u!1 &3365623097777025912
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,9 +1186,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623097800678551
 GameObject:
@@ -1292,9 +1294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623097815149979
 GameObject:
@@ -1400,9 +1402,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623097822425250
 GameObject:
@@ -1508,9 +1510,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623097931419572
 GameObject:
@@ -1616,9 +1618,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623097946353611
 GameObject:
@@ -1725,9 +1727,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 1
-  hitsToKill: 0
-  points: 0
-  powerUpPrefab: {fileID: 0}
+  hitsToKill: 1
+  points: 80
+  powerUpPrefab: {fileID: 9129626198267486154, guid: 96ffaf272ae5bb94c848fa5f093fb621,
+    type: 3}
 --- !u!1 &3365623097946679189
 GameObject:
   m_ObjectHideFlags: 0
@@ -1832,9 +1835,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623097965914155
 GameObject:
@@ -1940,7 +1943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
+  power: 0
   hitsToKill: 0
   points: 0
   powerUpPrefab: {fileID: 0}
@@ -2049,8 +2052,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 1
-  hitsToKill: 0
-  points: 0
+  hitsToKill: 3
+  points: 150
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098030840811
 GameObject:
@@ -2156,9 +2159,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098032250015
 GameObject:
@@ -2264,9 +2267,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098073507822
 GameObject:
@@ -2481,8 +2484,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 1
-  hitsToKill: 0
-  points: 0
+  hitsToKill: 3
+  points: 150
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098149405958
 GameObject:
@@ -2588,9 +2591,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098194418160
 GameObject:
@@ -2696,9 +2699,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098300905185
 GameObject:
@@ -2804,9 +2807,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098317286814
 GameObject:
@@ -2912,9 +2915,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098358029436
 GameObject:
@@ -3128,9 +3131,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 2
+  points: 100
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098403273491
 GameObject:
@@ -3236,9 +3239,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098444917386
 GameObject:
@@ -3344,9 +3347,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 2
+  points: 100
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098455952764
 GameObject:
@@ -3453,8 +3456,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 1
-  hitsToKill: 0
-  points: 0
+  hitsToKill: 3
+  points: 150
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098505303702
 GameObject:
@@ -3560,9 +3563,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 2
+  points: 100
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098620996662
 GameObject:
@@ -3668,9 +3671,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098644755210
 GameObject:
@@ -3776,9 +3779,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098657650213
 GameObject:
@@ -3884,9 +3887,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098664508531
 GameObject:
@@ -3992,9 +3995,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 2
+  points: 100
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098710771067
 GameObject:
@@ -4100,9 +4103,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 3
+  points: 150
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098719008218
 GameObject:
@@ -4209,8 +4212,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 1
-  hitsToKill: 0
-  points: 0
+  hitsToKill: 3
+  points: 150
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098750700283
 GameObject:
@@ -4316,9 +4319,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098834715355
 GameObject:
@@ -4424,9 +4427,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 2
+  points: 100
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098840978559
 GameObject:
@@ -4457,7 +4460,7 @@ Transform:
   m_GameObject: {fileID: 3365623098840978559}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.8038673, y: -0.4600605, z: 0}
-  m_LocalScale: {x: 1, y: 0.49999997, z: 1}
+  m_LocalScale: {x: 1, y: 0.4999999, z: 1}
   m_Children: []
   m_Father: {fileID: 3365623098966722401}
   m_RootOrder: 14
@@ -4533,9 +4536,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 1
-  hitsToKill: 0
-  points: 0
-  powerUpPrefab: {fileID: 0}
+  hitsToKill: 1
+  points: 80
+  powerUpPrefab: {fileID: 9129626198267486154, guid: 96ffaf272ae5bb94c848fa5f093fb621,
+    type: 3}
 --- !u!1 &3365623098937213347
 GameObject:
   m_ObjectHideFlags: 0
@@ -4641,6 +4645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 497851def17bcd44bac5e244314ead91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newScene: 
 --- !u!114 &447731453120180930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4653,9 +4658,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623098966722402
 GameObject:
@@ -4852,9 +4857,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 2
+  points: 100
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623099053618866
 GameObject:
@@ -4960,9 +4965,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 2
+  points: 100
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623099107178520
 GameObject:
@@ -5068,9 +5073,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623099124373566
 GameObject:
@@ -5176,9 +5181,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631293fed0c245543b4bfb9d2e0086c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 1
-  hitsToKill: 0
-  points: 0
+  power: 0
+  hitsToKill: 1
+  points: 80
   powerUpPrefab: {fileID: 0}
 --- !u!1 &3365623099242896228
 GameObject:

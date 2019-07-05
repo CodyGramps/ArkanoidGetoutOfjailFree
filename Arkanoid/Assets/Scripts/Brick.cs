@@ -9,32 +9,46 @@ public class Brick : MonoBehaviour
     public int points;
     private int numberOfHits;
     public GameObject powerUpPrefab;
+    float hitTimer;
+    public AnimationCurve hitanim;
+    Vector3 start;
 
     // Use this for initialization
     void Start()
     {
         numberOfHits = 0;
+        start = transform.localPosition;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (hitTimer > 0)
+        {
+            hitTimer -= Time.deltaTime;
+            transform.localPosition = start + Vector3.up * hitanim.Evaluate(hitanim.keys[hitanim.keys.Length - 1].time - hitTimer);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Ball")
         {
-            if (power != PowerUp.Power.Nothing)
+            numberOfHits++;
+            hitTimer = hitanim.keys[hitanim.keys.Length - 1].time;
+            if (numberOfHits >= hitsToKill)
             {
-                if (powerUpPrefab)
+                if (power != PowerUp.Power.Nothing)
                 {
-                    GameObject powerup = Instantiate(powerUpPrefab);
-                    powerup.GetComponent<PowerUp>().power = power;
+                    if (powerUpPrefab)
+                    {
+                        GameObject powerup = Instantiate(powerUpPrefab);
+                        powerup.GetComponent<PowerUp>().power = power;
+                        powerup.transform.position = transform.position;
+                    }
                 }
+                Destroy(gameObject);
             }
-            Destroy(gameObject);
         }
     }
 }
