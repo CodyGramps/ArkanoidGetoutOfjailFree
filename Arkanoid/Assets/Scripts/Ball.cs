@@ -16,6 +16,7 @@ public class Ball : MonoBehaviour
     bool bounced = false;
     float startX;
     float startY;
+    public AudioClip paddlesound;
 
     void Start()
     {
@@ -77,6 +78,11 @@ public class Ball : MonoBehaviour
         while (Mathf.Abs(velocity.x) <= 1f || Mathf.Abs(velocity.y) <= 3f)
         {
             velocity = Quaternion.Euler(0, 0, Random.Range(-45, 45)) * velocity;
+        }
+
+        if (collision.gameObject.name == "Paddle" && paddlesound)
+        {
+            AudioSource.PlayClipAtPoint(paddlesound, transform.position);
         }
     }
 

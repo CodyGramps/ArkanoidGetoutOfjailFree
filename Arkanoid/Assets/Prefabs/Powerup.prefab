@@ -105,5 +105,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 0
-  powerupaudio: {fileID: 8300000, guid: ce872c56648fb0740841ab73a7b298aa, type: 3}
+  powerupaudio: {fileID: 8300000, guid: d763109dc278264478671cc962e6d539, type: 3}
   speed: 0.1
