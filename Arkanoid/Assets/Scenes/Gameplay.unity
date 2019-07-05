@@ -1605,6 +1605,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 1581993182735682278, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 1292633353567086382, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -1845,6 +1850,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 1292633353567086382, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 2393163485603681662, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -2091,6 +2101,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 2393163485603681662, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 184080564600104502, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -2337,6 +2352,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 184080564600104502, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 1882857874793709908, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -2583,6 +2603,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 1882857874793709908, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 2806507764935702893, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -2829,6 +2854,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 2806507764935702893, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 531076660579206627, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -3075,6 +3105,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 531076660579206627, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 2193961859393246802, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -3321,6 +3356,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 2193961859393246802, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 5351542176472494910, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -3567,6 +3607,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 5351542176472494910, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 1161923337877517254, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -3807,6 +3852,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 1161923337877517254, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 4270242569300732309, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -4053,6 +4103,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 4270242569300732309, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 7070688335069133045, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -4299,6 +4354,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 7070688335069133045, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 1163046848925111526, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -4545,6 +4605,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 1163046848925111526, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 5572398943373937420, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -4791,6 +4856,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 5572398943373937420, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 3878637493959337666, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -5037,6 +5107,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 3878637493959337666, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 4023046950359167500, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -5277,6 +5352,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 4023046950359167500, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 7812876619368165465, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -5523,6 +5603,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 7812876619368165465, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 8241505114392885222, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -5769,6 +5854,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 8241505114392885222, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 1967810735216629553, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -6015,6 +6105,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 1967810735216629553, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 1368499822202394662, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -6261,6 +6356,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 1368499822202394662, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 1095854669641141802, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -6507,6 +6607,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 1095854669641141802, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 1832932394322288306, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -6753,6 +6858,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 1832932394322288306, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 5298089597659978970, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -6999,6 +7109,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 5298089597659978970, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 7914131900804872349, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -7245,6 +7360,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 7914131900804872349, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 6445574089810815779, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -7491,6 +7611,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 6445574089810815779, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 389454400411921649, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -7737,6 +7862,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 389454400411921649, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 3368959565733517535, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -7983,6 +8113,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 3368959565733517535, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 4269806866246259035, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -8229,6 +8364,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 4269806866246259035, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 1597114503749786995, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -8475,6 +8615,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 1597114503749786995, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 8238110911392721739, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -8721,6 +8866,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 8238110911392721739, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 1826788335291925882, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -8967,6 +9117,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 1826788335291925882, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 3902052296671920736, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -9213,6 +9368,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 3902052296671920736, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 5504079636700981554, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -9459,6 +9619,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 5504079636700981554, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 7877685624497536397, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -9705,6 +9870,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 7877685624497536397, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 543036871837127858, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -9951,6 +10121,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 543036871837127858, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 2450975545552318324, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -10197,6 +10372,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 2450975545552318324, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 5799710659770420805, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -10443,6 +10623,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 5799710659770420805, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 6409007241309308636, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -10689,6 +10874,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 6409007241309308636, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 9082886985718939201, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -10935,6 +11125,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 9082886985718939201, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 3297127741993118467, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -11181,6 +11376,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 3297127741993118467, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 3629052148697772854, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -11427,6 +11627,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 3629052148697772854, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 3173910647995840039, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -11667,6 +11872,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 3173910647995840039, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 447731453120180930, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -11913,6 +12123,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 447731453120180930, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 601547859396304045, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -12159,6 +12374,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 601547859396304045, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 3815712914314735280, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -12405,6 +12625,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 3815712914314735280, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 7909566516523167693, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -12651,6 +12876,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 7909566516523167693, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 44536081839262023, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -12897,6 +13127,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 44536081839262023, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     - target: {fileID: 5684759181936547816, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
         type: 3}
       propertyPath: hitanim.m_Curve.Array.size
@@ -13143,6 +13378,11 @@ PrefabInstance:
       propertyPath: hitanim.m_Curve.Array.data[6].value
       value: -0.0023498535
       objectReference: {fileID: 0}
+    - target: {fileID: 5684759181936547816, guid: fba4100ea48957d4eb7e8d7be6fa2ab8,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dca2a001769f97419e3a7415c903aac, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fba4100ea48957d4eb7e8d7be6fa2ab8, type: 3}
 --- !u!1001 &3897292966374239367
@@ -13232,6 +13472,16 @@ PrefabInstance:
       propertyPath: paddlesound
       value: 
       objectReference: {fileID: 8300000, guid: b611bc7980a38af41961823d984a2fc6, type: 3}
+    - target: {fileID: 3897292966182298259, guid: 846746eaeee50d04cbb09ee761bdcdf2,
+        type: 3}
+      propertyPath: paddleSound
+      value: 
+      objectReference: {fileID: 1454764458}
+    - target: {fileID: 3897292966182298259, guid: 846746eaeee50d04cbb09ee761bdcdf2,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 1454764452}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 846746eaeee50d04cbb09ee761bdcdf2, type: 3}
 --- !u!1001 &3972741647483164409

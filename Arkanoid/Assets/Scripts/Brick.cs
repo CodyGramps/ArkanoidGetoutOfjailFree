@@ -35,6 +35,7 @@ public class Brick : MonoBehaviour
         if (collision.gameObject.tag == "Ball")
         {
             numberOfHits++;
+            collision.gameObject.GetComponent<Ball>().hitSound.Play();
             hitTimer = hitanim.keys[hitanim.keys.Length - 1].time;
             ScoreDisplay.score += 10;
             if (numberOfHits >= hitsToKill)

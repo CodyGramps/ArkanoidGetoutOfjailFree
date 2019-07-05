@@ -17,7 +17,8 @@ public class Ball : MonoBehaviour
     bool bounced = false;
     float startX;
     float startY;
-    public AudioClip paddlesound;
+    public AudioSource paddleSound;
+    public AudioSource hitSound;
 
     void Start()
     {
@@ -86,9 +87,9 @@ public class Ball : MonoBehaviour
             velocity = Quaternion.Euler(0, 0, Random.Range(-45, 45)) * velocity;
         }
 
-        if (collision.gameObject.name == "Paddle" && paddlesound)
+        if (collision.gameObject.name == "Paddle")
         {
-            AudioSource.PlayClipAtPoint(paddlesound, transform.position);
+            paddleSound.Play();
         }
     }
 
