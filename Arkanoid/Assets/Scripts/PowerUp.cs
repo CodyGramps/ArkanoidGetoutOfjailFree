@@ -36,4 +36,7 @@ public class PowerUp : MonoBehaviour
     {
         transform.position += Vector3.down * speed;
     }
+=======
+    
+>>>>>>> Stashed changes
 }
