@@ -2,17 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeScene : MonoBehaviour
+public class Quit : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    public void doQuit()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Application.Quit();
+        Debug.Log("Quit");
     }
 }
