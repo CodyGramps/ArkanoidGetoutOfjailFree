@@ -90,6 +90,7 @@ public class Ball : MonoBehaviour
         if (collision.gameObject.name == "Paddle")
         {
             paddleSound.Play();
+            velocity = Quaternion.Euler(0, 0, Random.Range(-20, 20)) * velocity;
         }
     }
 

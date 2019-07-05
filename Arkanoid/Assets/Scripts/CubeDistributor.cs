@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CubeDistributor : MonoBehaviour
 {
@@ -17,6 +18,14 @@ public class CubeDistributor : MonoBehaviour
                 b.power = PowerUp.Power.BigPaddle;
                 Debug.Log("Put power up at " + b.transform.position);
             }
+        }
+    }
+
+    private void Update()
+    {
+        if (transform.childCount == 0)
+        {
+            SceneManager.LoadScene("HighScores");
         }
     }
 }
